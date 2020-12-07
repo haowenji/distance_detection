@@ -35,4 +35,4 @@ def box_list_points(box_list):
         center, ground = box_points(i[1])
         center_list += [center]
 		ground_list += [ground]
-	return centroid_list, ground_list
+	return center_list, ground_list
